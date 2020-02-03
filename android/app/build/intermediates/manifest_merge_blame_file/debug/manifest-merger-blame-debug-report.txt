@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.demoproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/Jay/Documents/demoproject/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/Jay/Documents/demoproject/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:8:5-65
+15-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:9:5-73
+16-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:9:22-70
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:10:5-71
+17-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:10:22-69
+18    <uses-permission android:name="android.permission.READ_PROFILE" />
+18-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:11:5-71
+18-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:11:22-68
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:12:5-79
+19-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:12:22-76
+20
+21    <uses-feature
+21-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+22        android:name="android.hardware.camera"
+22-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+23        android:required="false" />
+23-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+24    <uses-feature
+24-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[:react-native-camera] /Users/Jay/Documents/demoproject/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+27
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[:react-native-geolocation-service] /Users/Jay/Documents/demoproject/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+28-->[:react-native-geolocation-service] /Users/Jay/Documents/demoproject/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->[:react-native-geolocation-service] /Users/Jay/Documents/demoproject/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+29-->[:react-native-geolocation-service] /Users/Jay/Documents/demoproject/node_modules/react-native-geolocation-service/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+35-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:5-68
+35-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+36-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:5-82
+36-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:26:22-79
+37
+38    <application
+38-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:14:5-35:19
+39        android:name="com.demoproject.MainApplication"
+39-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:15:7-38
+40        android:allowBackup="false"
+40-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:19:7-34
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.1.0-rc01] /Users/Jay/.gradle/caches/transforms-2/files-2.1/42ca849ebf22ccccdfd2a528f2c188e9/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:17:7-41
+44        android:label="@string/app_name"
+44-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:16:7-39
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:18:7-52
+46        android:theme="@style/AppTheme"
+46-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:20:7-38
+47        android:usesCleartextTraffic="true" >
+47-->/Users/Jay/Documents/demoproject/android/app/src/debug/AndroidManifest.xml:7:18-53
+48        <meta-data
+48-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:21:7-23:64
+49            android:name="com.google.android.geo.API_KEY"
+49-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:22:7-52
+50            android:value="AIzaSyAkxIpoA4u0_fT2tBafqnhXHsOlV9OeTYA" />
+50-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:23:7-62
+51
+52        <activity
+52-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:24:7-33:18
+53            android:name="com.demoproject.MainActivity"
+53-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:25:9-37
+54            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+54-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:27:9-79
+55            android:label="@string/app_name"
+55-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:26:9-41
+56            android:windowSoftInputMode="adjustResize" >
+56-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:28:9-51
+57            <intent-filter>
+57-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:29:9-32:25
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:30:13-65
+58-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:30:21-62
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:31:13-73
+60-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:31:23-70
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+63-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:34:7-84
+63-->/Users/Jay/Documents/demoproject/android/app/src/main/AndroidManifest.xml:34:17-81
+64
+65        <provider
+65-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+66            android:name="com.imagepicker.FileProvider"
+66-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+67            android:authorities="com.demoproject.provider"
+67-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+68            android:exported="false"
+68-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+69            android:grantUriPermissions="true" >
+69-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+70            <meta-data
+70-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+72                android:resource="@xml/provider_paths" />
+72-->[:react-native-image-picker] /Users/Jay/Documents/demoproject/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+73        </provider> <!-- Needs to be explicitly declared on P+ -->
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5cc04b7703d9f2d7ccbdfc429eae1487/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+77
+78        <service
+78-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:29:9-35:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:30:13-84
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:31:13-37
+81            <meta-data
+81-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+82                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+82-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+84        </service>
+85
+86        <receiver
+86-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+87            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+87-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+88            android:exported="true"
+88-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+89            android:permission="com.google.android.c2dm.permission.SEND" >
+89-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+90            <intent-filter>
+90-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+91                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+91-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:17-81
+91-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:42:25-78
+92            </intent-filter>
+93        </receiver>
+94        <!--
+95             FirebaseInstanceIdService performs security checks at runtime,
+96             no need for explicit permissions despite exported="true"
+97        -->
+98        <service
+98-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+99            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+99-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+100            android:exported="true" >
+100-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+101            <intent-filter android:priority="-500" >
+101-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+101-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+102                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+102-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+102-->[com.google.firebase:firebase-iid:17.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/362a252e6dae9af392f0a64af5a25b1b/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+103            </intent-filter>
+104        </service>
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5727ae67655bc95599dc491a260f2bd2/jetified-play-services-base-16.1.0/AndroidManifest.xml:23:9-26:75
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5727ae67655bc95599dc491a260f2bd2/jetified-play-services-base-16.1.0/AndroidManifest.xml:24:13-79
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5727ae67655bc95599dc491a260f2bd2/jetified-play-services-base-16.1.0/AndroidManifest.xml:25:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:16.1.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/5727ae67655bc95599dc491a260f2bd2/jetified-play-services-base-16.1.0/AndroidManifest.xml:26:13-72
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:16.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/b4571742d537394063c094a4b6b151f8/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:16.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/b4571742d537394063c094a4b6b151f8/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+113            android:authorities="com.demoproject.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:16.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/b4571742d537394063c094a4b6b151f8/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+114            android:exported="false"
+114-->[com.google.firebase:firebase-common:16.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/b4571742d537394063c094a4b6b151f8/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+115            android:initOrder="100" />
+115-->[com.google.firebase:firebase-common:16.0.3] /Users/Jay/.gradle/caches/transforms-2/files-2.1/b4571742d537394063c094a4b6b151f8/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+116
+117        <meta-data
+117-->[com.google.android.gms:play-services-basement:16.2.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/9c1e2ba7d47851ecfb006d093b3d0614/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+118            android:name="com.google.android.gms.version"
+118-->[com.google.android.gms:play-services-basement:16.2.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/9c1e2ba7d47851ecfb006d093b3d0614/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+119            android:value="@integer/google_play_services_version" />
+119-->[com.google.android.gms:play-services-basement:16.2.0] /Users/Jay/.gradle/caches/transforms-2/files-2.1/9c1e2ba7d47851ecfb006d093b3d0614/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+120    </application>
+121
+122</manifest>
